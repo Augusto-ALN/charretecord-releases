@@ -154,7 +154,7 @@ Passe o mouse em cima de uma live para ver os controles e as estatísticas da co
 |---|---|
 | Volume e 🔊 | Ajusta ou silencia o som da live. Só aparecem quando a live tem som. |
 | ⤢ | Só na janela separada: coloca a live em destaque (o mesmo que clicar nela). |
-| ⧉ | **Miniplayer**: uma janelinha flutuante que fica por cima de tudo, até de jogos sem bordas. Dá para abrir um para cada live ou câmera ao mesmo tempo. O ⧉ fica aceso enquanto o miniplayer daquela live está aberto, e clicar nele de novo fecha só aquele. Passe o mouse na janelinha para ver o volume. |
+| ⧉ | **Miniplayer**: uma janelinha flutuante que fica por cima de tudo, até de jogos sem bordas. |
 | ⛶ | Entra na tela cheia. O mesmo botão sai dela, e duplo clique ou Esc também saem. |
 | ✕ | Para de assistir essa live. Ela some da tela até você abrir de novo pelo AO VIVO. |
 | ⏹ e 🔄 | Só na sua live: encerra, ou troca o que você está transmitindo. |
