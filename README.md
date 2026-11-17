@@ -178,10 +178,10 @@ Em Configurações → **Atalhos do teclado** (a tela do próprio Discord), dá 
 - **Charrete Live: escolher o que transmitir**
 - **Charrete Live: parar a live**
 
-Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aberto ou em outro monitor.
+Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aberto ou em outro monitor. Isso vale também para as ações de segurar, como falar ao pressionar.
 
-- **Botões do mouse:** na hora de gravar o atalho, aperte o botão do **meio**, **voltar** ou **avançar** do mouse, sozinho ou com Ctrl, Shift ou Alt. Com o mouse, até as ações de segurar (como falar ao pressionar) funcionam em qualquer janela.
-- **Teclado:** ações de segurar só funcionam com a janela do Charretecord em foco, porque o Windows não avisa quando a tecla é solta.
+- **Tecla exata:** o atalho guarda a tecla que você apertou. **Ctrl esquerdo** e **Ctrl direito** (e também Shift e Alt) são atalhos diferentes, e os **números do numpad** são diferentes dos números de cima do teclado. Atalhos gravados antes da 1.6.19 aceitam os dois lados; grave de novo para separar.
+- **Botões do mouse:** na hora de gravar o atalho, aperte o botão do **meio**, **voltar** ou **avançar** do mouse, sozinho ou com Ctrl, Shift ou Alt.
 - O atalho próprio do plugin (**Ctrl + Shift + F9**) continua valendo e pode ser mudado ou desligado nas opções.
 
 ## 10. Volume de voz dos amigos
@@ -217,7 +217,7 @@ Clique no **⟳** da linha Charrete Live, ou vá em Configurações → Plugins 
 | Imagem travando em cenas pesadas do jogo | O jogo está usando a placa de vídeo inteira. | Limite o FPS do jogo (por exemplo, 60). A live já usa a placa de vídeo com prioridade alta, mas sobra pouco quando o jogo roda sem limite. |
 | Imagem borrada | O upload de quem transmite está no limite, porque cada espectador recebe uma cópia da live. | Baixe para 720p ou 30 fps no seletor. Passe o mouse na linha Charrete Live para ver o que está limitando. |
 | Ninguém ouve o som do jogo | A live foi iniciada com "Sem áudio". | Use a setinha do botão de transmitir para trocar a fonte e escolha "Som do PC (sem o Discord)". |
-| Atalho não funciona dentro do jogo | Outro programa já usa a mesma combinação, ou é uma ação de segurar no teclado. | Escolha outra combinação. Para segurar (falar ao pressionar), use um botão do mouse. |
+| Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador, o Windows só deixa os atalhos chegarem se o Charretecord também rodar como administrador. |
 
 ## 13. Todas as opções
 
