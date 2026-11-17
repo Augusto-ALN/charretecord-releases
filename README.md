@@ -98,6 +98,8 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 
 ## 5. Durante a live
 
+- Quando a live abre, toca o berro de bode, o mesmo que os outros da chamada ouvem.
+- A linha **Charrete Live** (acima dos botões de voz) mostra **AO VIVO**, o que você está transmitindo, quantos estão assistindo e o botão vermelho **Encerrar**. O mini player também tem **⏹ Encerrar sua live**.
 - O botão de compartilhar tela fica **aceso**. Clicar nele **encerra** a live. A setinha ao lado dele **troca a fonte** (outra tela, janela ou jogo) **sem derrubar** quem está assistindo, e na troca dá para ligar ou desligar o áudio.
 - A sua live aparece com o selo **SUA LIVE**, para você conferir o que os outros estão vendo. No quadro dela:
   - **⏹** encerra a live;
@@ -123,10 +125,12 @@ As lives e câmeras aparecem como quadros na **grade de vídeo da chamada**, ao 
 
 <img src="guia/grade.png" width="700" alt="Grade da chamada com Ana, Bruno e Carla, a live do Bruno, a câmera da Carla e a live do Davi com o botão Assistir live">
 
+- Ao abrir uma live (pela lista de voz, pela prévia ou pelo selo **AO VIVO**), o Charretecord vai direto para a tela da chamada.
 - Lives que você ainda não abriu aparecem com o botão **Assistir live**. O **✕** no canto esconde esse quadro.
 - **Duplo clique** num quadro coloca a live em tela cheia.
+- **Botão direito** num quadro abre o menu da pessoa que está transmitindo, igual ao de clicar nela na chamada (volume, silenciar, perfil...).
 - Funciona com "Mostrar participantes sem vídeo" desligado: se tiver live ou câmera do Charrete Live, a grade continua aparecendo.
-- Saindo da chamada (por exemplo, abrindo um canal de texto), o que você está assistindo continua num **mini player** no canto da tela.
+- Saindo da chamada (por exemplo, abrindo um canal de texto), o que você está assistindo continua num **mini player** no canto da tela. Clique nele para voltar para a chamada.
 
 ### Janela separada (legacy)
 
