@@ -91,7 +91,7 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 ### Jogos detectados
 
 - Quando você abre um jogo durante a chamada, aparece a notificação "Transmitir jogo?".
-- O atalho **Ctrl + Shift + F9** inicia ou para a live de qualquer lugar, até de dentro do jogo. Se houver um jogo aberto em tela cheia, ele transmite esse jogo direto. Se não houver, abre o seletor. Veja também [Atalhos](#9-atalhos-do-teclado-e-do-mouse).
+- O atalho **Ctrl + Shift + F9** inicia ou para a live de qualquer lugar, até de dentro do jogo. Ele não pergunta nada: transmite o **aplicativo em foco** (a janela em que você está), com a resolução, o FPS e o áudio que você escolheu da última vez no seletor. Se o foco estiver no próprio Charretecord, ele transmite a tela onde está o mouse. Veja também [Atalhos](#9-atalhos-do-teclado-e-do-mouse).
 
 > [!TIP]
 > Nos jogos, prefira o modo **tela cheia sem bordas** (borderless). Na tela cheia exclusiva, dar Alt+Tab pode deixar a live preta.
@@ -192,7 +192,7 @@ Para mudar esse limite, vá em Configurações → Charretecord → Plugins → 
 
 ## 11. Atualizações
 
-Clique no **⟳** da linha Charrete Live, ou vá em Configurações → Plugins → CharreteLive → **Procurar atualizações**.
+Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda) ou no ⟳ da linha Charrete Live. Também dá para ir em Configurações → Plugins → CharreteLive → **Procurar atualizações**. Quando há versão nova, o ⟳ da barra do topo fica verde, com uma bolinha.
 
 <img src="guia/atualizacoes.png" width="480" alt="Janela Atualizações do Charretecord com as versões do Charretecord, Vesktop e Vencord">
 
@@ -230,7 +230,7 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 | Onde mostrar as lives e câmeras | Na grade de vídeo da chamada, ou numa janela separada acima do chat (legacy). | Na chamada |
 | Mostrar câmeras automaticamente | A câmera de quem ligar aparece sozinha. Desligado, aparece com o botão "Ver câmera". | Ligado |
 | Atalho | Tecla global para iniciar e parar a live. Deixe vazio para desligar. | Ctrl+Shift+F9 |
-| Ação do atalho | Inteligente (transmite o jogo detectado ou abre o seletor), sempre abrir o seletor, ou repetir a última fonte. | Inteligente |
+| Ação do atalho | Transmitir o aplicativo em foco sem perguntar, sempre abrir o seletor, ou repetir a última fonte. | Aplicativo em foco |
 | Resolução e FPS | A qualidade que já vem marcada no seletor. | 1080p, 60 fps |
 | Bitrate máximo | Limite de velocidade do vídeo, em kbps. Com 0, o app decide pela resolução. | 0 (automático) |
 | Codec | Formato do vídeo. O automático usa H.264 pela placa de vídeo. | Automático |
