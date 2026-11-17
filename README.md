@@ -127,6 +127,8 @@ As lives e câmeras aparecem como quadros na **grade de vídeo da chamada**, ao 
 
 - Ao abrir uma live (pela lista de voz, pela prévia ou pelo selo **AO VIVO**), o Charretecord vai direto para a tela da chamada.
 - Lives que você ainda não abriu aparecem com o botão **Assistir live**. O **✕** no canto esconde esse quadro.
+- **Clique** numa live ou câmera para **expandir**, igual a clicar numa pessoa da chamada: ela fica grande, e as pessoas e as outras lives vão para a faixa de baixo. Clique nela de novo para voltar à grade. Abrir uma live pela grade já expande ela.
+- Com uma pessoa expandida, as lives e câmeras aparecem na faixa de baixo junto com as fotos, e um clique nelas troca o destaque.
 - **Duplo clique** num quadro coloca a live em tela cheia.
 - **Botão direito** num quadro abre o menu da pessoa que está transmitindo, igual ao de clicar nela na chamada (volume, silenciar, perfil...).
 - Funciona com "Mostrar participantes sem vídeo" desligado: se tiver live ou câmera do Charrete Live, a grade continua aparecendo.
@@ -186,6 +188,7 @@ Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aber
 
 - **Tecla exata:** o atalho guarda a tecla que você apertou. **Ctrl esquerdo** e **Ctrl direito** (e também Shift e Alt) são atalhos diferentes, e os **números do numpad** são diferentes dos números de cima do teclado. Atalhos gravados antes da 1.6.19 aceitam os dois lados; grave de novo para separar.
 - **Botões do mouse:** na hora de gravar o atalho, aperte o botão do **meio**, **voltar** ou **avançar** do mouse, sozinho ou com Ctrl, Shift ou Alt.
+- **Jogos que rodam como administrador** (por exemplo Where Winds Meet): o Windows não entrega o teclado a programas comuns enquanto um desses jogos está em foco, então os atalhos param de funcionar dentro dele. Para resolver, vá em Configurações → Plugins → **CharreteKeybinds** → **Ativar**. O Windows pede permissão uma vez e cria uma tarefa que abre só o leitor de atalhos como administrador. Depois disso o Charretecord não pede mais permissão. Para desfazer, use **Desativar** no mesmo lugar.
 - O atalho próprio do plugin (**Ctrl + Shift + F9**) continua valendo e pode ser mudado ou desligado nas opções.
 
 ## 10. Volume de voz dos amigos
@@ -196,7 +199,7 @@ Para mudar esse limite, vá em Configurações → Charretecord → Plugins → 
 
 ## 11. Atualizações
 
-Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda) ou no ⟳ da linha Charrete Live. Também dá para ir em Configurações → Plugins → CharreteLive → **Procurar atualizações**. Quando há versão nova, o ⟳ da barra do topo fica verde, com uma bolinha.
+Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda) ou no ⟳ da linha Charrete Live. Também dá para ir em Configurações → Plugins → CharreteLive → **Procurar atualizações**. Quando sai versão nova, aparece uma notificação "Charretecord: nova versão" (clique nela para atualizar), e os dois ⟳ ficam verdes; o da barra do topo também ganha uma bolinha. O Charretecord confere a cada 30 minutos.
 
 <img src="guia/atualizacoes.png" width="480" alt="Janela Atualizações do Charretecord com as versões do Charretecord, Vesktop e Vencord">
 
@@ -221,7 +224,7 @@ Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda)
 | Imagem travando em cenas pesadas do jogo | O jogo está usando a placa de vídeo inteira. | Limite o FPS do jogo (por exemplo, 60). A live já usa a placa de vídeo com prioridade alta, mas sobra pouco quando o jogo roda sem limite. |
 | Imagem borrada | O upload de quem transmite está no limite, porque cada espectador recebe uma cópia da live. | Baixe para 720p ou 30 fps no seletor. Passe o mouse na linha Charrete Live para ver o que está limitando. |
 | Ninguém ouve o som do jogo | A live foi iniciada com "Sem áudio". | Use a setinha do botão de transmitir para trocar a fonte e escolha "Som do PC (sem o Discord)". |
-| Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador, o Windows só deixa os atalhos chegarem se o Charretecord também rodar como administrador. |
+| Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador, ative Configurações → Plugins → CharreteKeybinds → **Ativar** (veja [Atalhos](#9-atalhos-do-teclado-e-do-mouse)). |
 
 ## 13. Todas as opções
 
