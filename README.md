@@ -111,6 +111,8 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 
 Quem está transmitindo aparece com o selo **AO VIVO** ao lado do nome, na lista do canal de voz. Quem está assistindo alguma live aparece com um **olhinho**.
 
+Quem usa o Charretecord aparece com o **ícone do Charretecord** à esquerda do nome, na chamada e na lista de membros, mesmo usando outra senha de sala. Só quem tem o Charretecord vê esse ícone. Para isso, cada app anuncia apenas um código embaralhado do ID da conta do Discord: nenhum IP ou outro dado vai junto. Os IPs continuam indo só para quem tem a mesma senha de sala, e só na hora de assistir uma live.
+
 ### Prévia ao passar o mouse
 
 Passe o mouse em cima de quem está ao vivo para ver o que está sendo transmitido. Clique no quadro ou em **Assistir live** para abrir.
