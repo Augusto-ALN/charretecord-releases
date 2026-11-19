@@ -157,6 +157,7 @@ Passe o mouse em cima de uma live para ver os controles e as estatísticas da co
 | Botão | O que faz |
 |---|---|
 | Volume e 🔊 | Ajusta ou silencia o som da live. Só aparecem quando a live tem som. |
+| ＋ | **Amplificar**: para quem transmite com o som baixo. Cada clique aumenta o som dessa live (2x, 3x, 4x), e mais um clique volta ao normal. Um limitador evita que o som estoure. Vale só para essa live e só no seu PC; o volume padrão não muda. |
 | ⤢ | Só na janela separada: coloca a live em destaque (o mesmo que clicar nela). |
 | ⧉ | **Miniplayer**: uma janelinha flutuante que fica por cima de tudo, até de jogos sem bordas. |
 | ⛶ | Entra na tela cheia. O mesmo botão sai dela, e duplo clique ou Esc também saem. |
