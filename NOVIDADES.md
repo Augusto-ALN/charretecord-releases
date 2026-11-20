@@ -42,10 +42,11 @@ O histórico completo do que o Charretecord tem e de tudo o que mudou em cada ve
 
 ## Notas de atualização
 
-### v1.6.32 · Soundboard
+### v1.7.1 · Soundboard
 
 <sub>20/11/2026</sub>
 
+- 🔵 **MELHORIA** Base atualizada para o Vesktop 1.7.0 (por isso o número pulou de 1.6 para 1.7).
 - 🟢 **NOVO** Soundboard: sons de até 15 s, guardados só no seu PC, tocados como áudio ao vivo para quem está na chamada com o Charretecord. Um por vez, com 2 s de intervalo, reforço por som e atalhos "Charrete Soundboard: som 1 a 12".
 - 🟢 **NOVO** Volume das soundboards separado do microfone, silenciar a soundboard de uma pessoa (botão direito nela) e opção para nunca ouvir soundboards.
 - 🟢 **NOVO** Esta janela de novidades.
