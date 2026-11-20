@@ -196,7 +196,8 @@ Toque os seus próprios sons para quem está na chamada com você. Na chamada, c
 **Ouvindo a soundboard dos outros:**
 
 - O volume das soundboards é **separado do microfone** das pessoas: Configurações → Plugins → CharreteLive → **Volume das soundboards**.
-- Para **silenciar a soundboard de uma pessoa**, clique nela com o botão direito → **Silenciar a soundboard**.
+- **Quem está tocando**: enquanto alguém toca um som, o nome do som aparece em verde ao lado do nome da pessoa na lista de voz.
+- Para **baixar ou silenciar a soundboard de uma pessoa**, clique nela com o botão direito → **Volume da soundboard** ou **Silenciar a soundboard**.
 - Para **nunca ouvir soundboards**, desligue **Ouvir a soundboard dos outros** nas mesmas opções.
 
 ## 10. Atalhos do teclado e do mouse

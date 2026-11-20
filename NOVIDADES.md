@@ -39,6 +39,13 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### v1.7.5 · Quem tocou esse som?
+
+<sub>20/11/2026</sub>
+
+- 🟢 **NOVO** Na lista de voz, ao lado do nome de quem está tocando um som na soundboard, aparece o nome do som enquanto ele toca.
+- 🟢 **NOVO** Botão direito na pessoa → Volume da soundboard: baixe só a soundboard dela, ou silencie de vez.
+
 ### v1.7.4 · Soundboard no painel
 
 <sub>20/11/2026</sub>
