@@ -13,6 +13,8 @@ A voz continua sendo a do Discord. A live (tela, janela ou jogo) e a câmera vã
 - Cada live aceita até 5 espectadores (dá para mudar nas opções).
 - Só quem usa o Charretecord, com a mesma senha da sala, vê as suas lives e a sua câmera.
 
+> 📜 **[Novidades do Charretecord](NOVIDADES.md)**: tudo o que ele faz a mais que o Discord, e as notas de cada versão.
+
 ## Sumário
 
 1. [Instalar](#1-instalar)
@@ -23,11 +25,12 @@ A voz continua sendo a do Discord. A live (tela, janela ou jogo) e a câmera vã
 6. [Assistir](#6-assistir)
 7. [Câmera](#7-câmera)
 8. [Pedir live](#8-pedir-live)
-9. [Atalhos do teclado e do mouse](#9-atalhos-do-teclado-e-do-mouse)
-10. [Volume de voz dos amigos](#10-volume-de-voz-dos-amigos)
-11. [Atualizações](#11-atualizações)
-12. [Problemas comuns](#12-problemas-comuns)
-13. [Todas as opções](#13-todas-as-opções)
+9. [Soundboard](#9-soundboard)
+10. [Atalhos do teclado e do mouse](#10-atalhos-do-teclado-e-do-mouse)
+11. [Volume de voz dos amigos](#11-volume-de-voz-dos-amigos)
+12. [Atualizações](#12-atualizações)
+13. [Problemas comuns](#13-problemas-comuns)
+14. [Todas as opções](#14-todas-as-opções)
 
 ---
 
@@ -67,7 +70,7 @@ Quando você entra num canal de voz, aparece a linha **Charrete Live** no painel
 
 <img src="guia/painel.png" width="340" alt="Painel Voz conectada com a linha Charrete Live acima dos botões de câmera, transmitir, atividades e soundboard">
 
-- **Bolinha verde**: pronto para transmitir e assistir. **Vermelha**: sem conexão com os servidores de encontro (veja [Problemas comuns](#12-problemas-comuns)).
+- **Bolinha verde**: pronto para transmitir e assistir. **Vermelha**: sem conexão com os servidores de encontro (veja [Problemas comuns](#13-problemas-comuns)).
 - **`3/3`**: quantos servidores de encontro estão conectados.
 - **`sala XXXX`**: o código da sua senha.
 - **⟳**: abre a janela de atualizações.
@@ -91,7 +94,7 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 ### Jogos detectados
 
 - Quando você abre um jogo durante a chamada, aparece a notificação "Transmitir jogo?".
-- O atalho **Ctrl + Shift + F9** inicia ou para a live de qualquer lugar, até de dentro do jogo. Ele não pergunta nada: transmite o **aplicativo em foco** (a janela em que você está), com a resolução, o FPS e o áudio que você escolheu da última vez no seletor. Se o foco estiver no próprio Charretecord, ele transmite a tela onde está o mouse. Veja também [Atalhos](#9-atalhos-do-teclado-e-do-mouse).
+- O atalho **Ctrl + Shift + F9** inicia ou para a live de qualquer lugar, até de dentro do jogo. Ele não pergunta nada: transmite o **aplicativo em foco** (a janela em que você está), com a resolução, o FPS e o áudio que você escolheu da última vez no seletor. Se o foco estiver no próprio Charretecord, ele transmite a tela onde está o mouse. Veja também [Atalhos](#10-atalhos-do-teclado-e-do-mouse).
 
 > [!TIP]
 > Nos jogos, prefira o modo **tela cheia sem bordas** (borderless). Na tela cheia exclusiva, dar Alt+Tab pode deixar a live preta.
@@ -179,7 +182,23 @@ Passe o mouse em alguém da chamada que não está transmitindo e use o botão d
 
 Para quem não usa o Charretecord, o botão continua mandando o pedido normal do Discord.
 
-## 9. Atalhos do teclado e do mouse
+## 9. Soundboard
+
+Toque sons para quem está na chamada com você. Abra a soundboard pelo **🔉** da linha Charrete Live (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
+
+- **Adicionar sons**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
+- **▶** toca o som. Ele vai como áudio ao vivo para quem está **no mesmo canal de voz**, com o Charretecord e a **mesma senha de sala**. Quem usa o Discord normal não ouve.
+- Toca **um som por vez**, e o próximo só depois de **2 segundos** do fim do anterior.
+- **Reforço**: para um som que ficou baixo, escolha 1,5x a 4x ao lado dele.
+- **Atalhos**: em **Atalhos do teclado**, crie as ações **"Charrete Soundboard: som 1"** a **"som 12"**. O número é a posição do som na lista (use ↑ e ↓ para reordenar). Em jogos que rodam como administrador, talvez seja preciso abrir o Charretecord como administrador.
+
+**Ouvindo a soundboard dos outros:**
+
+- O volume das soundboards é **separado do microfone** das pessoas: Configurações → Plugins → CharreteLive → **Volume das soundboards**.
+- Para **silenciar a soundboard de uma pessoa**, clique nela com o botão direito → **Silenciar a soundboard**.
+- Para **nunca ouvir soundboards**, desligue **Ouvir a soundboard dos outros** nas mesmas opções.
+
+## 10. Atalhos do teclado e do mouse
 
 Em Configurações → **Atalhos do teclado** (a tela do próprio Discord), dá para criar atalhos para qualquer ação, inclusive estas do Charrete Live:
 
@@ -187,22 +206,24 @@ Em Configurações → **Atalhos do teclado** (a tela do próprio Discord), dá 
 - **Charrete Live: escolher o que transmitir**
 - **Charrete Live: parar a live**
 
-Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aberto ou em outro monitor. Isso vale também para as ações de segurar, como falar ao pressionar.
+Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aberto ou em outro monitor (para jogos que rodam como administrador, veja abaixo). Isso vale também para as ações de segurar, como falar ao pressionar.
 
 - **Tecla exata:** o atalho guarda a tecla que você apertou. **Ctrl esquerdo** e **Ctrl direito** (e também Shift e Alt) são atalhos diferentes, e os **números do numpad** são diferentes dos números de cima do teclado. Atalhos gravados antes da 1.6.19 aceitam os dois lados; grave de novo para separar.
 - **Botões do mouse:** na hora de gravar o atalho, aperte o botão do **meio**, **voltar** ou **avançar** do mouse, sozinho ou com Ctrl, Shift ou Alt.
-- **Jogos que rodam como administrador** (por exemplo Where Winds Meet): o Windows não entrega o teclado a programas comuns enquanto um desses jogos está em foco, então os atalhos param de funcionar dentro dele. Para resolver, vá em Configurações → Plugins → **CharreteKeybinds** → **Ativar**. O Windows pede permissão uma vez e cria uma tarefa que abre só o leitor de atalhos como administrador. Depois disso o Charretecord não pede mais permissão. Para desfazer, use **Desativar** no mesmo lugar. Isso vale para todos os atalhos: os da tela de atalhos (inclusive mutar e as ações do Charrete Live) e o Ctrl + Shift + F9. Quando o Charretecord vê um jogo rodando como administrador com isso desligado, aparece uma notificação: clique nela para ativar.
+- **Jogos que rodam como administrador** (por exemplo Where Winds Meet): o Windows não entrega o teclado a programas comuns enquanto um desses jogos está em foco. Para os atalhos funcionarem dentro deles, talvez você precise abrir o Charretecord como administrador: clique com o botão direito no atalho do Charretecord → **Executar como administrador**. Quando o Charretecord vê um jogo assim, mostra um aviso.
 - O atalho próprio do plugin (**Ctrl + Shift + F9**) continua valendo e pode ser mudado ou desligado nas opções.
 
-## 10. Volume de voz dos amigos
+## 11. Volume de voz dos amigos
 
 O Charretecord vem com o volume de voz liberado até **500%**. Durante a chamada, clique com o botão direito no amigo → **Volume do usuário** e arraste além dos 100%.
 
 Para mudar esse limite, vá em Configurações → Charretecord → Plugins → **VolumeBooster**.
 
-## 11. Atualizações
+## 12. Atualizações
 
 Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda) ou no ⟳ da linha Charrete Live. Também dá para ir em Configurações → Plugins → CharreteLive → **Procurar atualizações**. Quando sai versão nova, aparece uma notificação "Charretecord: nova versão" (clique nela para atualizar), e os dois ⟳ ficam verdes; o da barra do topo também ganha uma bolinha. O Charretecord confere a cada 30 minutos.
+
+Depois de atualizar, abre a janela de **Novidades**: na primeira vez ela mostra tudo o que o Charretecord tem; depois, só o que mudou. Para ver de novo, use Configurações → Plugins → CharreteLive → **Novidades do Charretecord**, ou leia o [histórico completo](NOVIDADES.md).
 
 <img src="guia/atualizacoes.png" width="480" alt="Janela Atualizações do Charretecord com as versões do Charretecord, Vesktop e Vencord">
 
@@ -214,22 +235,22 @@ Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda)
 > [!IMPORTANT]
 > As primeiras versões não tinham o botão ⟳. Se o seu painel do Charrete Live mostra "sinalização" no lugar de "sala XXXX", baixe e instale a versão mais recente pela [página de versões](https://github.com/Augusto-ALN/charretecord-releases/releases/latest). Depois disso, as atualizações chegam sozinhas.
 
-## 12. Problemas comuns
+## 13. Problemas comuns
 
 | O que acontece | Causa provável | O que fazer |
 |---|---|---|
 | Bolinha vermelha, "0/3" | A rede bloqueia a conexão que os PCs usam para se encontrar. É comum em redes de empresa ou faculdade e com antivírus rígido. | Teste em outra rede (por exemplo, com a internet do celular). Se funcionar, o problema é a rede. |
 | Não vejo a live de ninguém | Senha da sala diferente, ou vocês estão em canais de voz diferentes. | Compare o código `sala XXXX` na linha Charrete Live. Se for diferente, cole a senha de novo. Entrem no mesmo canal, ou usem o modo "Sempre". |
 | Aviso "O relógio deste PC está X min adiantado/atrasado" | A data ou a hora do Windows está errada. | Nas configurações do Windows, vá em Hora e idioma e ligue **Definir horário automaticamente**. |
-| A live de um amigo fica sempre em "conectando" e ele não tem o botão ⟳ | Ele está numa versão antiga, que não conversa com as novas. | Ele precisa baixar e instalar a versão mais recente uma vez. Veja [Atualizações](#11-atualizações). |
+| A live de um amigo fica sempre em "conectando" e ele não tem o botão ⟳ | Ele está numa versão antiga, que não conversa com as novas. | Ele precisa baixar e instalar a versão mais recente uma vez. Veja [Atualizações](#12-atualizações). |
 | A live aparece, mas fica em "conectando" | A rede de um dos dois não permite conexão direta. Acontece com alguns tipos de CGNAT, 4G/5G ou firewall. Deixar o IPv6 ligado no Windows costuma resolver. | Se não resolver, é preciso configurar um servidor TURN nas opções do plugin. Peça para quem cuida do Charretecord. |
 | Live preta ou parada no jogo | Jogo em tela cheia exclusiva. | Use o modo "tela cheia sem bordas" no jogo. |
 | Imagem travando em cenas pesadas do jogo | O jogo está usando a placa de vídeo inteira. | Durante a live, o Charretecord pede prioridade de tempo real na placa de vídeo (na NVIDIA, alta) e impede o Windows de pôr o app em modo eficiência quando o jogo cobre a janela. Quando falta força, a live prefere perder um pouco de nitidez a perder quadros. Em jogos que pesam muito no processador, uma live a **60 FPS** pode não ter folga: teste a live a **30 FPS** no seletor. Também ajuda desligar gravadores em segundo plano (Instant Replay da NVIDIA, gravação do Xbox Game Bar) e usar o jogo em **tela cheia sem bordas**. |
 | Imagem borrada | O upload de quem transmite está no limite, porque cada espectador recebe uma cópia da live. | Baixe para 720p ou 30 fps no seletor. Passe o mouse na linha Charrete Live para ver o que está limitando. |
 | Ninguém ouve o som do jogo | A live foi iniciada com "Sem áudio". | Use a setinha do botão de transmitir para trocar a fonte e escolha "Som do PC (sem o Discord)". |
-| Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador, ative Configurações → Plugins → CharreteKeybinds → **Ativar** (veja [Atalhos](#9-atalhos-do-teclado-e-do-mouse)). |
+| Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador (como o Where Winds Meet), abra o Charretecord como administrador: botão direito no atalho dele → **Executar como administrador** (veja [Atalhos](#10-atalhos-do-teclado-e-do-mouse)). |
 
-## 13. Todas as opções
+## 14. Todas as opções
 
 Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 
@@ -238,6 +259,8 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 | Senha da sala | Precisa ser igual em todos os PCs do grupo. Só quem tem a senha vê e assiste às lives. | vazia |
 | Onde as lives aparecem | Só para quem está no mesmo canal de voz, ou sempre. | Mesmo canal |
 | Onde mostrar as lives e câmeras | Na grade de vídeo da chamada, ou numa janela separada acima do chat (legacy). | Na chamada |
+| Ouvir a soundboard dos outros | Desligado, nunca toca a soundboard de ninguém. | Ligado |
+| Volume das soundboards dos outros | Volume dos sons das soundboards, separado do microfone das pessoas. | 70% |
 | Mostrar câmeras automaticamente | A câmera de quem ligar aparece sozinha. Desligado, aparece com o botão "Ver câmera". | Ligado |
 | Atalho | Tecla global para iniciar e parar a live. Deixe vazio para desligar. | Ctrl+Shift+F9 |
 | Ação do atalho | Transmitir o aplicativo em foco sem perguntar, sempre abrir o seletor, ou repetir a última fonte. | Aplicativo em foco |
