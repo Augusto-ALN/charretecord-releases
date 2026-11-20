@@ -39,6 +39,14 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### v1.7.4 · Soundboard no painel
+
+<sub>20/11/2026</sub>
+
+- 🔵 **MELHORIA** O botão da Charrete Soundboard abre um painelzinho em cima dele, como o do Discord: clique num som para tocar. "Ver todos" abre a janela para enviar e organizar os sons.
+- 🟠 **CORREÇÃO** O ícone do botão da soundboard ficou centralizado.
+- 🟠 **CORREÇÃO** As novidades voltam a abrir depois de atualizar: a janela espera o Discord terminar de carregar.
+
 ### v1.7.3 · Botão da soundboard
 
 <sub>20/11/2026</sub>

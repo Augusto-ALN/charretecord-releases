@@ -186,7 +186,8 @@ Para quem não usa o Charretecord, o botão continua mandando o pedido normal do
 
 Toque os seus próprios sons para quem está na chamada com você. Na chamada, clique no botão da **cabra de óculos**, ao lado do botão de soundboard do Discord, no painel de voz (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
 
-- A Charrete Soundboard tem **só os sons que você enviou**. Clique em **＋ Adicionar som**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
+- O botão abre um painelzinho com os seus sons: **clique num som** para tocar. **Ver todos** abre a janela completa.
+- A Charrete Soundboard tem **só os sons que você enviou**. Na janela completa, clique em **＋ Adicionar som**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
 - **Clique num som** para tocar. Ele vai como áudio ao vivo para quem está **no mesmo canal de voz**, com o Charretecord e a **mesma senha de sala**. Quem usa o Discord normal não ouve.
 - Toca **um som por vez**, e o próximo só depois de **2 segundos** do fim do anterior.
 - **Editar sons**: renomeie, reordene (↑ ↓), apague (🗑) ou dê **reforço** de 1,5x a 4x a um som que ficou baixo.
