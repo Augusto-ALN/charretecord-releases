@@ -39,6 +39,14 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### v1.7.3 · Botão da soundboard
+
+<sub>20/11/2026</sub>
+
+- 🔵 **MELHORIA** A Charrete Soundboard ganhou um botão no painel de voz, ao lado do botão de soundboard do Discord. Ele abre a janela onde você envia, organiza e toca os seus sons.
+- 🔵 **MELHORIA** A janela mostra os sons em quadros: um clique toca. Em "Editar sons", renomeie, reordene, apague e dê reforço a cada um.
+- 🔵 **MELHORIA** O 🔉 saiu da linha Charrete Live.
+
 ### v1.7.2 · Novidades revistas
 
 <sub>20/11/2026</sub>

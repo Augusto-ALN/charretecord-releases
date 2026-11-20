@@ -184,13 +184,13 @@ Para quem não usa o Charretecord, o botão continua mandando o pedido normal do
 
 ## 9. Soundboard
 
-Toque sons para quem está na chamada com você. Abra a soundboard pelo **🔉** da linha Charrete Live (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
+Toque os seus próprios sons para quem está na chamada com você. Na chamada, clique no botão da **cabra de óculos**, ao lado do botão de soundboard do Discord, no painel de voz (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
 
-- **Adicionar sons**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
-- **▶** toca o som. Ele vai como áudio ao vivo para quem está **no mesmo canal de voz**, com o Charretecord e a **mesma senha de sala**. Quem usa o Discord normal não ouve.
+- A Charrete Soundboard tem **só os sons que você enviou**. Clique em **＋ Adicionar som**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
+- **Clique num som** para tocar. Ele vai como áudio ao vivo para quem está **no mesmo canal de voz**, com o Charretecord e a **mesma senha de sala**. Quem usa o Discord normal não ouve.
 - Toca **um som por vez**, e o próximo só depois de **2 segundos** do fim do anterior.
-- **Reforço**: para um som que ficou baixo, escolha 1,5x a 4x ao lado dele.
-- **Atalhos**: em **Atalhos do teclado**, crie as ações **"Charrete Soundboard: som 1"** a **"som 12"**. O número é a posição do som na lista (use ↑ e ↓ para reordenar). Em jogos que rodam como administrador, talvez seja preciso abrir o Charretecord como administrador.
+- **Editar sons**: renomeie, reordene (↑ ↓), apague (🗑) ou dê **reforço** de 1,5x a 4x a um som que ficou baixo.
+- **Atalhos**: em **Atalhos do teclado**, crie as ações **"Charrete Soundboard: som 1"** a **"som 12"**. O número é a posição do som na lista. Em jogos que rodam como administrador, talvez seja preciso abrir o Charretecord como administrador.
 
 **Ouvindo a soundboard dos outros:**
 
