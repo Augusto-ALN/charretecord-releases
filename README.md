@@ -215,7 +215,7 @@ Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aber
 
 ## 11. Volume de voz dos amigos
 
-O Charretecord vem com o volume de voz liberado até **500%**. Durante a chamada, clique com o botão direito no amigo → **Volume do usuário** e arraste além dos 100%.
+O Charretecord vem com o volume de voz liberado até **1000%** (no Discord, o máximo é 200%). Durante a chamada, clique com o botão direito no amigo → **Volume do usuário** e arraste além dos 100%.
 
 Para mudar esse limite, vá em Configurações → Charretecord → Plugins → **VolumeBooster**.
 

@@ -2,45 +2,49 @@
 
 # Novidades do Charretecord
 
-O histórico completo do que o Charretecord tem e de tudo o que mudou em cada versão. Dentro do app, a janela de novidades abre sozinha depois de cada atualização (e em Configurações → Plugins → CharreteLive → **Novidades do Charretecord**).
+O que o Charretecord tem de diferente do Discord e o histórico de tudo o que mudou em cada versão. Dentro do app, a janela de novidades abre sozinha depois de cada atualização (e em Configurações → Plugins → CharreteLive → **Novidades do Charretecord**).
 
-## O que o Charretecord tem
+## A mais que o Discord
 
 <table>
 <tr>
-<td><img src="guia/novidades/lives.png" width="430" alt="Lives direto de PC para PC"></td>
-<td><img src="guia/novidades/grade.png" width="430" alt="Lives na grade da chamada"></td>
+<td><img src="guia/novidades/lives.png" width="430" alt="Lives até 4K 60 FPS, sem Nitro"></td>
+<td><img src="guia/novidades/privadas.png" width="430" alt="Lives privadas, de PC para PC"></td>
 </tr>
 <tr>
-<td><img src="guia/novidades/camera.png" width="430" alt="Câmera ponto a ponto"></td>
-<td><img src="guia/novidades/aovivo.png" width="430" alt="AO VIVO, prévia e olhinho"></td>
-</tr>
-<tr>
-<td><img src="guia/novidades/pedir.png" width="430" alt="Pedir live"></td>
-<td><img src="guia/novidades/atalho-live.png" width="430" alt="Live num atalho"></td>
-</tr>
-<tr>
-<td><img src="guia/novidades/atalhos.png" width="430" alt="Atalhos globais de verdade"></td>
-<td><img src="guia/novidades/soundboard.png" width="430" alt="Soundboard"></td>
+<td><img src="guia/novidades/soundboard.png" width="430" alt="Soundboard sem Nitro"></td>
+<td><img src="guia/novidades/voz.png" width="430" alt="Volume de voz até 1000%"></td>
 </tr>
 <tr>
 <td><img src="guia/novidades/amplificar.png" width="430" alt="Amplificar o som de uma live"></td>
-<td><img src="guia/novidades/voz.png" width="430" alt="Volume de voz até 500%"></td>
+<td><img src="guia/novidades/atalho-live.png" width="430" alt="Live num atalho, sem perguntar"></td>
 </tr>
 <tr>
 <td><img src="guia/novidades/icone.png" width="430" alt="Quem usa o Charretecord"></td>
-<td><img src="guia/novidades/desempenho.png" width="430" alt="Feito para jogar e transmitir"></td>
 </tr>
+</table>
+
+## No Brasil
+
+Desde 12/08/2026, por ordem da ANPD, as transmissões ao vivo (Go Live) do Discord estão suspensas no Brasil, e o recurso do Discord foi negado em 19/11/2026. Segundo o próprio Discord, a medida também atinge chamadas de vídeo e o compartilhamento de tela. Texto e voz continuam funcionando.
+
+Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-11/anpd-rejeita-recurso-do-discord-e-mantem-lives-suspensas-no-pais), [Olhar Digital](https://olhardigital.com.br/2026/11/19/internet-e-redes-sociais/anpd-nega-recurso-do-discord-e-mantem-lives-suspensas-no-brasil), [Carta Capital](https://www.cartacapital.com.br/toquetec/discord-suspende-recursos-de-video-no-brasil-apos-determinacao-da-anpd/).
+
+<table>
 <tr>
-<td><img src="guia/novidades/miniplayer.png" width="430" alt="Miniplayer e tela cheia"></td>
-<td><img src="guia/novidades/atualizacoes.png" width="430" alt="Atualizações sozinhas"></td>
-</tr>
-<tr>
-<td><img src="guia/novidades/login.png" width="430" alt="Login sem janela de chave de segurança"></td>
+<td><img src="guia/novidades/br-lives.png" width="430" alt="Lives funcionando no Brasil"></td>
+<td><img src="guia/novidades/br-camera.png" width="430" alt="Câmera e tela de volta"></td>
 </tr>
 </table>
 
 ## Notas de atualização
+
+### v1.7.2 · Novidades revistas
+
+<sub>20/11/2026</sub>
+
+- 🔵 **MELHORIA** A janela de novidades mostra só o que o Charretecord faz que o Discord não faz, e uma seção sobre o Brasil: com o Go Live suspenso pela ANPD, as lives e a câmera do Charretecord funcionam porque vão de PC para PC.
+- 🟠 **CORREÇÃO** O volume de voz vai até 1000% (o texto dizia 500%).
 
 ### v1.7.1 · Soundboard
 
