@@ -39,6 +39,13 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### v1.7.6 · Som de entrada na live
+
+<sub>22/11/2026</sub>
+
+- 🔵 **MELHORIA** Áudio da chamada mais estável: a voz de cada pessoa toca pelo próprio Discord até 100%, e o reforço de volume só entra acima disso.
+- 🟢 **NOVO** Som quando alguém entra para assistir a sua live (o mesmo do Discord). Dá para desligar em Plugins → CharreteLive.
+
 ### v1.7.5 · Quem tocou esse som?
 
 <sub>20/11/2026</sub>

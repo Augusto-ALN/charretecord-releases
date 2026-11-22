@@ -261,6 +261,7 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 | Senha da sala | Precisa ser igual em todos os PCs do grupo. Só quem tem a senha vê e assiste às lives. | vazia |
 | Onde as lives aparecem | Só para quem está no mesmo canal de voz, ou sempre. | Mesmo canal |
 | Onde mostrar as lives e câmeras | Na grade de vídeo da chamada, ou numa janela separada acima do chat (legacy). | Na chamada |
+| Som quando alguém entra na sua live | Toca o mesmo som do Discord quando alguém começa a assistir. | Ligado |
 | Ouvir a soundboard dos outros | Desligado, nunca toca a soundboard de ninguém. | Ligado |
 | Volume das soundboards dos outros | Volume dos sons das soundboards, separado do microfone das pessoas. | 70% |
 | Mostrar câmeras automaticamente | A câmera de quem ligar aparece sozinha. Desligado, aparece com o botão "Ver câmera". | Ligado |
