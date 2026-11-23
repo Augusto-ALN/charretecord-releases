@@ -56,13 +56,13 @@ Todo mundo que vai transmitir e assistir junto precisa usar a mesma **senha da s
 
 1. Abra **Configurações do usuário** (a engrenagem no canto inferior esquerdo).
 2. Na seção **Charretecord**, entre em **Plugins** e procure **CharreteLive**.
-3. Cole a senha combinada com o grupo em **Senha da sala**.
+3. Cole a senha combinada com o grupo em **Senha da sala** e clique em **Aplicar**. Ela precisa ter **pelo menos 12 caracteres**, misturando letras, números ou símbolos (ou ser uma frase com 20 ou mais). O jeito mais fácil: uma pessoa do grupo clica em **Gerar senha forte**, que preenche o campo e copia a senha, clica em **Aplicar** e manda a senha para os outros por um lugar seguro. Por segurança, dá para trocar a senha no máximo 5 vezes a cada 10 minutos.
 4. Escolha **Onde as lives aparecem**:
    - **Mesmo canal de voz** (padrão): você só vê as lives de quem está no mesmo canal de voz que você.
    - **Sempre**: todos com a mesma senha se veem, em qualquer canal ou até fora de chamada.
 
 > [!TIP]
-> Copie e cole a senha em vez de digitar. Para conferir se todo mundo está com a mesma senha, compare o **código da sala** que aparece na linha Charrete Live (por exemplo, `sala 5B9B`): ele é igual em todos os PCs que usam a mesma senha.
+> Copie e cole a senha em vez de digitar. Para conferir se todo mundo está com a mesma senha, compare o **código da sala** que aparece na linha Charrete Live (por exemplo, `sala 5B9B-21C4`): ele é igual em todos os PCs que usam a mesma senha.
 
 ## 3. A linha Charrete Live
 
@@ -242,7 +242,7 @@ Depois de atualizar, abre a janela de **Novidades**: na primeira vez ela mostra 
 | O que acontece | Causa provável | O que fazer |
 |---|---|---|
 | Bolinha vermelha, "0/3" | A rede bloqueia a conexão que os PCs usam para se encontrar. É comum em redes de empresa ou faculdade e com antivírus rígido. | Teste em outra rede (por exemplo, com a internet do celular). Se funcionar, o problema é a rede. |
-| Não vejo a live de ninguém | Senha da sala diferente, ou vocês estão em canais de voz diferentes. | Compare o código `sala XXXX` na linha Charrete Live. Se for diferente, cole a senha de novo. Entrem no mesmo canal, ou usem o modo "Sempre". |
+| Não vejo a live de ninguém | Senha da sala diferente, versões diferentes do Charretecord (todos precisam estar na 1.7.7 ou mais nova), ou vocês estão em canais de voz diferentes. | Compare o código `sala XXXX` na linha Charrete Live. Se for diferente, cole a senha de novo. Entrem no mesmo canal, ou usem o modo "Sempre". |
 | Aviso "O relógio deste PC está X min adiantado/atrasado" | A data ou a hora do Windows está errada. | Nas configurações do Windows, vá em Hora e idioma e ligue **Definir horário automaticamente**. |
 | A live de um amigo fica sempre em "conectando" e ele não tem o botão ⟳ | Ele está numa versão antiga, que não conversa com as novas. | Ele precisa baixar e instalar a versão mais recente uma vez. Veja [Atualizações](#12-atualizações). |
 | A live aparece, mas fica em "conectando" | A rede de um dos dois não permite conexão direta. Acontece com alguns tipos de CGNAT, 4G/5G ou firewall. Deixar o IPv6 ligado no Windows costuma resolver. | Se não resolver, é preciso configurar um servidor TURN nas opções do plugin. Peça para quem cuida do Charretecord. |
@@ -258,7 +258,8 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 
 | Opção | O que faz | Padrão |
 |---|---|---|
-| Senha da sala | Precisa ser igual em todos os PCs do grupo. Só quem tem a senha vê e assiste às lives. | vazia |
+| Senha da sala | Precisa ser igual em todos os PCs do grupo. Só quem tem a senha vê e assiste às lives. Mínimo de 12 caracteres, misturando letras, números ou símbolos. Só vale depois de clicar em **Aplicar** (até 5 trocas a cada 10 minutos). | vazia |
+| Gerar senha forte | Cria uma senha aleatória, coloca no campo e copia para você mandar aos amigos. Clique em **Aplicar** para usar. | |
 | Onde as lives aparecem | Só para quem está no mesmo canal de voz, ou sempre. | Mesmo canal |
 | Onde mostrar as lives e câmeras | Na grade de vídeo da chamada, ou numa janela separada acima do chat (legacy). | Na chamada |
 | Som quando alguém entra na sua live | Toca o mesmo som do Discord quando alguém começa a assistir. | Ligado |

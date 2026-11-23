@@ -39,204 +39,384 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
-### v1.7.6 · Som de entrada na live
+### 1.7.7 · Atualização de segurança
+
+<sub>23/11/2026</sub>
+
+*Proteção reforçada para salas, senhas e atualizações. Todo o grupo precisa estar nesta versão para continuar se vendo nas lives.*
+
+#### Segurança
+
+- Derivação de chave reforçada para a senha da sala: cada tentativa de adivinhação ficou cerca de 60 mil vezes mais cara.
+- Identificador da sala ampliado para 256 bits e protegido contra injeção. As mensagens ficam vinculadas à sala e expiram em 5 minutos.
+- Atualizações assinadas digitalmente: o aplicativo só instala versões assinadas pelo Charretecord, e somente após a sua confirmação.
+- Limite de trocas da senha da sala (5 a cada 10 minutos) contra tentativas em sequência.
+
+#### Novidades
+
+- Campo de senha com botão Aplicar: a senha só passa a valer quando você confirma.
+- Gerador de senha forte, que cria e copia uma senha aleatória para compartilhar com o grupo.
+
+#### Melhorias
+
+- Requisito mínimo de senha: 12 caracteres, combinando letras, números ou símbolos.
+- Limites para as solicitações de cada participante da sala. Apenas as lives que você abrir podem ser assistidas.
+- Fora da chamada, nenhuma conexão com a sala é mantida. No modo Sempre, câmeras só abrem automaticamente para quem está no seu canal de voz.
+- Código da sala com 8 caracteres, para conferir com mais segurança se todos usam a mesma senha.
+
+### 1.7.6 · Aviso de espectadores
 
 <sub>22/11/2026</sub>
 
-- 🔵 **MELHORIA** Áudio da chamada mais estável: a voz de cada pessoa toca pelo próprio Discord até 100%, e o reforço de volume só entra acima disso.
-- 🟢 **NOVO** Som quando alguém entra para assistir a sua live (o mesmo do Discord). Dá para desligar em Plugins → CharreteLive.
+*Aviso sonoro de novos espectadores e áudio de chamada mais estável.*
 
-### v1.7.5 · Quem tocou esse som?
+#### Novidades
 
-<sub>20/11/2026</sub>
+- Som de entrada quando alguém começa a assistir à sua live, o mesmo do Discord. Pode ser desativado em Plugins → CharreteLive.
 
-- 🟢 **NOVO** Na lista de voz, ao lado do nome de quem está tocando um som na soundboard, aparece o nome do som enquanto ele toca.
-- 🟢 **NOVO** Botão direito na pessoa → Volume da soundboard: baixe só a soundboard dela, ou silencie de vez.
+#### Melhorias
 
-### v1.7.4 · Soundboard no painel
+- Áudio de voz mais estável: até 100%, cada participante é reproduzido diretamente pelo Discord, e o reforço de volume atua somente acima disso.
 
-<sub>20/11/2026</sub>
-
-- 🔵 **MELHORIA** O botão da Charrete Soundboard abre um painelzinho em cima dele, como o do Discord: clique num som para tocar. "Ver todos" abre a janela para enviar e organizar os sons.
-- 🟠 **CORREÇÃO** O ícone do botão da soundboard ficou centralizado.
-- 🟠 **CORREÇÃO** As novidades voltam a abrir depois de atualizar: a janela espera o Discord terminar de carregar.
-
-### v1.7.3 · Botão da soundboard
+### 1.7.5 · Identificação na soundboard
 
 <sub>20/11/2026</sub>
 
-- 🔵 **MELHORIA** A Charrete Soundboard ganhou um botão no painel de voz, ao lado do botão de soundboard do Discord. Ele abre a janela onde você envia, organiza e toca os seus sons.
-- 🔵 **MELHORIA** A janela mostra os sons em quadros: um clique toca. Em "Editar sons", renomeie, reordene, apague e dê reforço a cada um.
-- 🔵 **MELHORIA** O 🔉 saiu da linha Charrete Live.
+*Saiba quem está tocando cada som e ajuste o volume por pessoa.*
 
-### v1.7.2 · Novidades revistas
+#### Novidades
 
-<sub>20/11/2026</sub>
+- Indicador na lista de voz com o nome do som que cada participante está tocando.
+- Volume da soundboard por pessoa, no menu de contexto do participante, além da opção de silenciar.
 
-- 🔵 **MELHORIA** A janela de novidades mostra só o que o Charretecord faz que o Discord não faz, e uma seção sobre o Brasil: com o Go Live suspenso pela ANPD, as lives e a câmera do Charretecord funcionam porque vão de PC para PC.
-- 🟠 **CORREÇÃO** O volume de voz vai até 1000% (o texto dizia 500%).
-
-### v1.7.1 · Soundboard
+### 1.7.4 · Painel da soundboard
 
 <sub>20/11/2026</sub>
 
-- 🔵 **MELHORIA** Base atualizada para o Vesktop 1.7.0 (por isso o número pulou de 1.6 para 1.7).
-- 🟢 **NOVO** Soundboard: sons de até 15 s, guardados só no seu PC, tocados como áudio ao vivo para quem está na chamada com o Charretecord. Um por vez, com 2 s de intervalo, reforço por som e atalhos "Charrete Soundboard: som 1 a 12".
-- 🟢 **NOVO** Volume das soundboards separado do microfone, silenciar a soundboard de uma pessoa (botão direito nela) e opção para nunca ouvir soundboards.
-- 🟢 **NOVO** Esta janela de novidades.
-- 🔵 **MELHORIA** A tela de Atalhos do teclado avisa que, em jogos que rodam como administrador, talvez seja preciso abrir o Charretecord como administrador.
+*Acesso rápido aos seus sons direto do painel de voz.*
 
-### v1.6.31 · Amplificar o som
+#### Melhorias
+
+- Painel compacto acima do botão da soundboard, no padrão do Discord: um clique toca o som, e Ver todos abre o gerenciamento.
+
+#### Correções
+
+- Ícone do botão da soundboard centralizado.
+- Notas de atualização exibidas corretamente após atualizar, aguardando o carregamento completo do Discord.
+
+### 1.7.3 · Soundboard no painel de voz
+
+<sub>20/11/2026</sub>
+
+*Novo ponto de acesso à Charrete Soundboard e gerenciamento de sons redesenhado.*
+
+#### Novidades
+
+- Botão da Charrete Soundboard no painel de voz, ao lado da soundboard do Discord.
+
+#### Melhorias
+
+- Biblioteca de sons em grade, com edição de nome, ordem, reforço e exclusão.
+- Acesso à soundboard centralizado no painel de voz, fora da linha Charrete Live.
+
+### 1.7.2 · Notas de atualização revisadas
+
+<sub>20/11/2026</sub>
+
+*Apresentação mais clara dos recursos exclusivos e do cenário no Brasil.*
+
+#### Melhorias
+
+- Janela de novidades focada nos recursos exclusivos do Charretecord, com seção dedicada ao Brasil.
+
+#### Correções
+
+- Limite de volume de voz informado corretamente: até 1000%.
+
+### 1.7.1 · Charrete Soundboard
+
+<sub>20/11/2026</sub>
+
+*Soundboard própria, sem Nitro, e base atualizada para o Vesktop 1.7.0.*
+
+#### Novidades
+
+- Charrete Soundboard: sons de até 15 segundos, armazenados no seu computador e transmitidos ao vivo para a chamada.
+- Controle de áudio da soundboard: volume próprio, silenciamento por pessoa e opção para desativar os sons recebidos.
+- Atalhos de teclado para até 12 sons.
+- Janela de novidades com o histórico de versões.
+
+#### Melhorias
+
+- Base atualizada para o Vesktop 1.7.0.
+- Orientação sobre atalhos em jogos executados como administrador.
+
+### 1.6.31 · Amplificação de áudio da live
 
 <sub>19/11/2026</sub>
 
-- 🟢 **NOVO** Botão + nas lives com som: amplifica só aquela live (2x, 3x, 4x), com limitador. Sem mexer, o volume continua o mesmo.
+*Mais volume para lives com áudio baixo.*
 
-### v1.6.30 · A cabra de óculos
+#### Novidades
 
-<sub>18/11/2026</sub>
+- Amplificação por live (2x, 3x e 4x) com limitador, sem alterar o volume padrão.
 
-- 🔵 **MELHORIA** O ícone de quem usa o Charretecord virou a cabra de óculos, à direita do nome e das tags e antes do AO VIVO.
-
-### v1.6.29 · Quem usa o Charretecord
+### 1.6.30 · Nova identidade visual
 
 <sub>18/11/2026</sub>
 
-- 🟢 **NOVO** Ícone ao lado do nome de quem usa o Charretecord, na lista de voz e na de membros, mesmo com senhas de sala diferentes. Nenhum IP é compartilhado.
+*Ícone de usuário do Charretecord atualizado.*
 
-### v1.6.28 · Codificação pela placa
+#### Melhorias
 
-<sub>18/11/2026</sub>
+- Novo ícone de usuários do Charretecord, exibido ao lado do nome e das tags.
 
-- 🔵 **MELHORIA** O H.264 da live usa os perfis High/Main, que vão para o codificador da placa de vídeo, em vez de cair no processador.
-- 🔵 **MELHORIA** Prioridade de processador acima do normal para a captura durante a live.
-
-### v1.6.27 · Lives lisas em jogos pesados
+### 1.6.29 · Identificação de usuários
 
 <sub>18/11/2026</sub>
 
-- 🟠 **CORREÇÃO** O Windows não estrangula mais o app atrás do jogo: a captura a 30 FPS sai a 30 de verdade, e a 60 sobe de ~31 para ~49 FPS.
-- 🔵 **MELHORIA** Prioridade de GPU de tempo real durante a live (alta na NVIDIA), e a live prefere perder nitidez a perder quadros.
+*Veja quem também usa o Charretecord.*
 
-### v1.6.26 · Volume na live expandida
+#### Novidades
+
+- Ícone de usuário do Charretecord na lista de voz e de membros, independente da senha de sala. Nenhum endereço IP é compartilhado.
+
+### 1.6.28 · Codificação por hardware
 
 <sub>18/11/2026</sub>
 
-- 🟠 **CORREÇÃO** Os controles dos quadros da chamada ficam embaixo, e o volume da live expandida voltou a funcionar.
+*Mais desempenho na transmissão.*
 
-### v1.6.25 · Um leitor para todos os atalhos
+#### Melhorias
 
-<sub>17/11/2026</sub>
+- Perfis H.264 High e Main, priorizando o codificador da placa de vídeo.
+- Prioridade de processamento elevada para a captura durante a live.
 
-- 🔵 **MELHORIA** O Ctrl + Shift + F9 passa pelo mesmo leitor dos outros atalhos.
-- 🟢 **NOVO** Aviso quando um jogo roda como administrador: para os atalhos funcionarem nele, talvez seja preciso abrir o Charretecord como administrador.
+### 1.6.27 · Desempenho em jogos
 
-### v1.6.24 · Expandir lives
+<sub>18/11/2026</sub>
 
-<sub>17/11/2026</sub>
+*Lives mais fluidas durante jogos exigentes.*
 
-- 🟢 **NOVO** Clique numa live ou câmera para expandir, como na foto de alguém; com uma pessoa expandida, as lives entram na faixa de baixo.
-- 🟢 **NOVO** Notificação quando sai versão nova, e os botões ⟳ ficam verdes.
+#### Melhorias
 
-### v1.6.21 · Menu, Encerrar e berro
+- Prioridade de GPU em tempo real durante a live e preferência por fluidez em vez de nitidez.
 
-<sub>17/11/2026</sub>
+#### Correções
 
-- 🟢 **NOVO** Botão direito num quadro abre o menu do Discord da pessoa.
-- 🟢 **NOVO** Botão Encerrar na linha Charrete Live e no mini player.
-- 🔵 **MELHORIA** Abrir uma live leva para a chamada; o berro de bode toca também para quem abre a live.
+- Taxa de quadros da captura mantida com o aplicativo em segundo plano: 30 FPS estáveis e até cerca de 49 FPS no modo 60.
 
-### v1.6.20 · Live do aplicativo em foco
+### 1.6.26 · Controles da visualização expandida
 
-<sub>17/11/2026</sub>
+<sub>18/11/2026</sub>
 
-- 🔵 **MELHORIA** O Ctrl + Shift + F9 transmite na hora o aplicativo em foco, com as últimas configurações.
-- 🟢 **NOVO** Botão ⟳ de atualizações na barra do topo.
+*Ajustes nos controles da grade da chamada.*
 
-### v1.6.19 · Atalhos fora de foco
+#### Correções
 
-<sub>17/11/2026</sub>
+- Controles da grade reposicionados e volume da live expandida restabelecido.
 
-- 🟢 **NOVO** Atalhos funcionam fora de foco, inclusive os de segurar, com Ctrl esquerdo/direito e numpad separados.
-
-### v1.6.18 · Lives na chamada
+### 1.6.25 · Atalhos unificados
 
 <sub>17/11/2026</sub>
 
-- 🔵 **MELHORIA** As lives aparecem na grade da chamada por padrão (a janela separada continua como opção).
+*Todos os atalhos passam pelo mesmo mecanismo.*
 
-### v1.6.17 · Dois jeitos de assistir
+#### Novidades
 
-<sub>17/11/2026</sub>
+- Aviso para jogos executados como administrador.
 
-- 🟢 **NOVO** Escolha entre lives na grade da chamada ou numa janela separada; fechar lives e encerrar a sua pela grade.
+#### Melhorias
 
-### v1.6.16 · Grade da chamada
+- Atalho Ctrl + Shift + F9 integrado ao mesmo mecanismo dos demais atalhos.
 
-<sub>17/11/2026</sub>
-
-- 🟢 **NOVO** Lives e câmeras na grade da chamada, mini player fora dela e a linha Charrete Live acima dos botões de voz.
-
-### v1.6.15 · Botões do painel de voz
+### 1.6.24 · Visualização expandida
 
 <sub>17/11/2026</sub>
 
-- 🟠 **CORREÇÃO** Os botões de câmera e de transmitir do painel de voz abrem o Charrete Live.
+*Foco em uma live com um clique.*
 
-### v1.6.14 · Prévia e pedir live
+#### Novidades
 
-<sub>17/11/2026</sub>
+- Expansão de lives e câmeras com um clique, com as demais em uma faixa inferior.
+- Notificação de nova versão disponível, com destaque nos botões de atualização.
 
-- 🟢 **NOVO** Prévia ao passar o mouse em quem está ao vivo, e o pedir live do Discord vai pelo Charretecord.
-
-### v1.6.13 · No lugar do Go Live
-
-<sub>17/11/2026</sub>
-
-- 🟢 **NOVO** O Charrete Live substitui o Go Live e a câmera do Discord: AO VIVO na lista de voz e câmera ponto a ponto.
-
-### v1.6.12 · Login e mouse
+### 1.6.21 · Controles da live
 
 <sub>17/11/2026</sub>
 
-- 🟠 **CORREÇÃO** O login não abre mais a janela de chave de segurança do Windows.
-- 🟢 **NOVO** Atalhos com os botões do mouse (meio, voltar, avançar).
+*Mais controle sobre lives na chamada.*
 
-### v1.6.11 · Prioridade de GPU
+#### Novidades
+
+- Menu de contexto do Discord nos quadros da chamada.
+- Botão Encerrar na linha Charrete Live e no mini player.
+
+#### Melhorias
+
+- Abrir uma live leva direto à chamada, com aviso sonoro para quem transmite.
+
+### 1.6.20 · Transmissão rápida
+
+<sub>17/11/2026</sub>
+
+*Comece uma live em um atalho.*
+
+#### Novidades
+
+- Botão de atualizações na barra superior.
+
+#### Melhorias
+
+- Ctrl + Shift + F9 transmite instantaneamente o aplicativo em foco, com as últimas configurações.
+
+### 1.6.19 · Atalhos globais
+
+<sub>17/11/2026</sub>
+
+*Atalhos que funcionam com o aplicativo em segundo plano.*
+
+#### Novidades
+
+- Atalhos ativos em segundo plano, incluindo ações de pressionar e segurar, com distinção entre Ctrl esquerdo e direito e teclado numérico.
+
+### 1.6.18 · Lives na grade
+
+<sub>17/11/2026</sub>
+
+*A grade da chamada passa a ser o modo padrão.*
+
+#### Melhorias
+
+- Lives exibidas na grade da chamada por padrão, com a janela separada disponível como opção.
+
+### 1.6.17 · Modos de visualização
+
+<sub>17/11/2026</sub>
+
+*Escolha como assistir às lives.*
+
+#### Novidades
+
+- Escolha entre a grade da chamada e uma janela separada, com controles para fechar e encerrar.
+
+### 1.6.16 · Integração com a chamada
+
+<sub>17/11/2026</sub>
+
+*Lives e câmeras dentro da chamada do Discord.*
+
+#### Novidades
+
+- Lives e câmeras na grade da chamada, mini player e linha de status Charrete Live no painel de voz.
+
+### 1.6.15 · Painel de voz
+
+<sub>17/11/2026</sub>
+
+*Botões do Discord direcionados ao Charrete Live.*
+
+#### Correções
+
+- Botões de câmera e de transmissão do painel de voz direcionados ao Charrete Live.
+
+### 1.6.14 · Prévia e solicitação de live
+
+<sub>17/11/2026</sub>
+
+*Veja antes de entrar e peça uma live.*
+
+#### Novidades
+
+- Prévia ao passar o mouse sobre quem está ao vivo e solicitação de live integrada.
+
+### 1.6.13 · Substituição do Go Live
+
+<sub>17/11/2026</sub>
+
+*O Charrete Live assume as transmissões e a câmera.*
+
+#### Novidades
+
+- Charrete Live no lugar do Go Live e da câmera do Discord, com indicador AO VIVO e câmera ponto a ponto.
+
+### 1.6.12 · Login e atalhos de mouse
+
+<sub>17/11/2026</sub>
+
+*Login mais simples e novos atalhos.*
+
+#### Novidades
+
+- Atalhos com os botões do mouse (meio, voltar e avançar).
+
+#### Correções
+
+- Login sem a solicitação indevida de chave de segurança do Windows.
+
+### 1.6.11 · Prioridade de GPU
 
 <sub>16/11/2026</sub>
 
-- 🔵 **MELHORIA** Prioridade alta de GPU durante a live e teto de FPS respeitado na captura.
+*Transmissão mais estável sob carga.*
 
-### v1.6.10 · H.264 pela placa
+#### Melhorias
 
-<sub>16/11/2026</sub>
+- Prioridade de GPU elevada durante a live e respeito ao limite de FPS na captura.
 
-- 🔵 **MELHORIA** Codificação H.264 pela placa de vídeo por padrão, diagnóstico do envio e berro baixinho quando alguém abre uma live.
-
-### v1.6.8 · Atalhos do Discord
+### 1.6.10 · Codificação H.264
 
 <sub>16/11/2026</sub>
 
-- 🟢 **NOVO** A tela de Atalhos do teclado do Discord funciona, com ações do Charrete Live.
+*Codificação por hardware como padrão.*
 
-### v1.6.7 · Relógio e código da sala
+#### Novidades
+
+- Aviso sonoro quando alguém abre uma live.
+
+#### Melhorias
+
+- Codificação H.264 pela placa de vídeo como padrão e diagnóstico de envio.
+
+### 1.6.8 · Atalhos do Discord
+
+<sub>16/11/2026</sub>
+
+*Ações do Charrete Live na tela de atalhos do Discord.*
+
+#### Novidades
+
+- Integração com a tela de Atalhos do teclado do Discord, incluindo ações do Charrete Live.
+
+### 1.6.7 · Sincronização de salas
 
 <sub>14/11/2026</sub>
 
-- 🔵 **MELHORIA** A sinalização tolera relógio errado, ignora espaços na senha e mostra o código da sala.
+*Conexão entre PCs mais tolerante.*
 
-### v1.6.5 · O berro do bode
+#### Melhorias
 
-<sub>14/11/2026</sub>
+- Tolerância a diferenças de relógio, senha sem espaços acidentais e código de verificação da sala.
 
-- 🟢 **NOVO** Berro de bode ao terminar uma atualização.
-
-### v1.6.4 · O começo
+### 1.6.5 · Aviso de atualização
 
 <sub>14/11/2026</sub>
 
-- 🟢 **NOVO** Charretecord: lives ponto a ponto dentro do Discord, app separado com instalador e versão portátil, e atualizador.
+*Confirmação sonora ao concluir uma atualização.*
+
+#### Novidades
+
+- Aviso sonoro ao concluir uma atualização.
+
+### 1.6.4 · Lançamento
+
+<sub>14/11/2026</sub>
+
+*Primeira versão pública do Charretecord.*
+
+#### Novidades
+
+- Lives ponto a ponto dentro do Discord, aplicativo dedicado com instalador e versão portátil, e atualizações integradas.
 
 ---
 
