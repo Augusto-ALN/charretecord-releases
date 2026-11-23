@@ -39,11 +39,11 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
-### 1.7.9 · Atualização de segurança
+### 1.7.10 · Atualização de segurança
 
 <sub>23/11/2026</sub>
 
-*Proteção reforçada para salas, senhas e atualizações, e compartilhamento de acesso sem revelar a senha. O grupo precisa estar na 1.7.7 ou mais nova para continuar se vendo nas lives, e compartilhar acesso exige a 1.7.9 nos dois computadores.*
+*Proteção reforçada para salas, senhas e atualizações, e compartilhamento de acesso sem revelar a senha. O grupo precisa estar na 1.7.7 ou mais nova para continuar se vendo nas lives, e compartilhar acesso exige a 1.7.10 nos dois computadores.*
 
 #### Segurança
 
@@ -58,6 +58,7 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 - Compartilhar acesso à sala: clique com o botão direito em alguém do seu canal de voz para dar acesso à sua sala sem revelar a senha. Vocês passam a ver as lives um do outro, e os dois conferem um código antes de concluir.
 - Campo de senha com botão Aplicar: a senha só passa a valer quando você confirma.
 - Gerador de senha forte, que cria e copia uma senha aleatória para compartilhar com o grupo.
+- Permissão de recompartilhar: ao compartilhar o acesso, você escolhe se a pessoa também pode compartilhar com outras. Só quem tem a senha concede essa permissão.
 
 #### Melhorias
 
@@ -65,11 +66,7 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 - Limites para as solicitações de cada participante da sala. Apenas as lives que você abrir podem ser assistidas.
 - Fora da chamada, nenhuma conexão com a sala é mantida. No modo Sempre, câmeras só abrem automaticamente para quem está no seu canal de voz.
 - Código da sala com 8 caracteres, para conferir com mais segurança se todos usam a mesma senha.
-- A opção de compartilhar acesso indica quando a outra pessoa precisa atualizar o Charretecord.
-
-#### Correções
-
-- Convites de acesso sem resposta avisam em 15 segundos e liberam um novo convite.
+- Convites de acesso mais confiáveis: o convite é reenviado até o outro app responder, e um aviso aparece em 15 segundos se não houver resposta.
 
 ### 1.7.6 · Aviso de espectadores
 
@@ -427,4 +424,4 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ---
 
-As versões 1.6.0 a 1.6.3 foram builds de teste, e as 1.6.9, 1.6.22 e 1.6.23 tiveram mudanças desfeitas na versão seguinte. As versões 1.7.7 e 1.7.8 foram publicadas com parte das mudanças da 1.7.9, e as notas das três estão juntas.
+As versões 1.6.0 a 1.6.3 foram builds de teste, e as 1.6.9, 1.6.22 e 1.6.23 tiveram mudanças desfeitas na versão seguinte. As versões 1.7.7 a 1.7.9 foram publicadas com parte das mudanças da 1.7.10, e as notas estão juntas.
