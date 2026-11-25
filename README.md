@@ -264,6 +264,7 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 | Gerar senha forte | Cria uma senha aleatória, coloca no campo e copia para você mandar aos amigos. Clique em **Aplicar** para usar. | |
 | Onde as lives aparecem | Só para quem está no mesmo canal de voz, ou sempre. | Mesmo canal |
 | Onde mostrar as lives e câmeras | Na grade de vídeo da chamada, ou numa janela separada acima do chat (legacy). | Na chamada |
+| Upload máximo das lives | Soma do que vai para todos os espectadores, dividida entre eles. Cada um recebe uma cópia da live pelo seu upload; se ele enche, a sua voz trava para os outros na chamada. Aumente se a sua internet tiver upload de sobra. | 10 Mbps |
 | Som quando alguém entra na sua live | Toca o mesmo som do Discord quando alguém começa a assistir. | Ligado |
 | Ouvir a soundboard dos outros | Desligado, nunca toca a soundboard de ninguém. | Ligado |
 | Volume das soundboards dos outros | Volume dos sons das soundboards, separado do microfone das pessoas. | 70% |

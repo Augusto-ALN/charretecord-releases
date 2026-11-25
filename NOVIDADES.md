@@ -39,6 +39,18 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.12 · Voz mais estável
+
+<sub>25/11/2026</sub>
+
+*A voz da chamada fica mais estável com jogos abertos e durante as lives.*
+
+#### Melhorias
+
+- Durante as chamadas de voz, o Windows não coloca mais o Charretecord em modo eficiência, evitando cortes na sua voz quando há um jogo em primeiro plano.
+- Limite de upload das lives: a soma do que vai para todos os espectadores fica em até 10 Mbps por padrão, dividida entre eles e reajustada quando alguém entra ou sai, preservando a qualidade da sua voz na chamada. Ajustável em Plugins → CharreteLive.
+- Ao fim da chamada ou da live, os ajustes de energia do Windows voltam exatamente ao estado anterior.
+
 ### 1.7.11 · Áudio de voz e desempenho
 
 <sub>25/11/2026</sub>
