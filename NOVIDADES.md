@@ -39,6 +39,22 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.11 · Áudio de voz e desempenho
+
+<sub>25/11/2026</sub>
+
+*Áudio da chamada mais estável e menor uso de memória fora das chamadas.*
+
+#### Novidades
+
+- Reiniciar o áudio desta pessoa: no menu de contexto de alguém da chamada, recria o áudio dela na hora, sem sair da chamada.
+
+#### Melhorias
+
+- Recuperação automática do áudio de cada participante: se o som de alguém parar, ele volta sozinho em poucos segundos.
+- Volume de voz acima de 100% mais estável: o dispositivo de saída de áudio não é mais reconfigurado a cada atualização.
+- Menor uso de memória: a detecção de jogos só funciona durante as chamadas (cerca de 80 MB a menos fora delas), e a soundboard mantém na memória apenas os últimos sons tocados.
+
 ### 1.7.10 · Atualização de segurança
 
 <sub>23/11/2026</sub>
