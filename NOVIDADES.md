@@ -8,18 +8,19 @@ O que o Charretecord tem de diferente do Discord e o histórico de tudo o que mu
 
 <table>
 <tr>
+<td><img src="guia/novidades/chachan.png" width="430" alt="Cha-chan, a mascote"></td>
 <td><img src="guia/novidades/lives.png" width="430" alt="Lives até 4K 60 FPS, sem Nitro"></td>
+</tr>
+<tr>
 <td><img src="guia/novidades/privadas.png" width="430" alt="Lives privadas, de PC para PC"></td>
-</tr>
-<tr>
 <td><img src="guia/novidades/soundboard.png" width="430" alt="Soundboard sem Nitro"></td>
+</tr>
+<tr>
 <td><img src="guia/novidades/voz.png" width="430" alt="Volume de voz até 1000%"></td>
-</tr>
-<tr>
 <td><img src="guia/novidades/amplificar.png" width="430" alt="Amplificar o som de uma live"></td>
-<td><img src="guia/novidades/atalho-live.png" width="430" alt="Live num atalho, sem perguntar"></td>
 </tr>
 <tr>
+<td><img src="guia/novidades/atalho-live.png" width="430" alt="Live num atalho, sem perguntar"></td>
 <td><img src="guia/novidades/icone.png" width="430" alt="Quem usa o Charretecord"></td>
 </tr>
 </table>
@@ -38,6 +39,35 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 </table>
 
 ## Notas de atualização
+
+### 1.7.14 · Conheça a Cha-chan
+
+<sub>25/11/2026</sub>
+
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan"></p>
+
+*O Charretecord ganhou uma mascote nova: a Cha-chan, que mora no app e pode passear pela sua área de trabalho.*
+
+#### Cha-chan chegou
+
+A Charrete-chan, ou só Cha-chan, é a nova cara do Charretecord: de óculos escuros, chifres e sempre na estica. Ela agora aparece ao lado do nome de quem usa o Charretecord, nas notas de atualização e na barra do topo.
+
+Ela também é um bichinho virtual. Para continuar viva, precisa de você no Charretecord pelo menos 30 minutos por dia. Hambúrguer enche a barriga e cerveja deixa ela feliz.
+
+Solte a Cha-chan na área de trabalho e ela passeia pela tela, sobe nas suas janelas e vai junto quando você arrasta uma delas. Dá para fazer carinho, pegar com o mouse e jogar.
+
+Em breve: skins novas conforme o tempo de vida dela. Quanto mais tempo ela viver, mais visuais desbloqueia.
+
+#### Novidades
+
+- Cha-chan, a nova mascote do Charretecord: botão com o rosto dela na barra do topo abre a janela dela, com barriga, felicidade e os minutos do dia.
+- Bichinho virtual: ela precisa de pelo menos 30 minutos por dia com você no Charretecord para continuar viva. Hambúrguer enche a barriga e cerveja (até 3 por dia) deixa ela feliz.
+- Cha-chan na área de trabalho: solta, ela anda pela tela, sobe nas janelas abertas e acompanha a janela em que está. Clique para fazer carinho, arraste para levar a outro lugar e use o botão direito para alimentar. Ela continua na tela até por cima de jogos e vídeos em tela cheia (modo janela sem bordas).
+- Em breve: skins para a Cha-chan conforme o tempo de vida dela.
+
+#### Melhorias
+
+- O ícone ao lado do nome de quem usa o Charretecord agora é a Cha-chan.
 
 ### 1.7.13 · Áudio da live por aplicativo
 

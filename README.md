@@ -13,6 +13,10 @@ A voz continua sendo a do Discord. A live (tela, janela ou jogo) e a câmera vã
 - Cada live aceita até 5 espectadores (dá para mudar nas opções).
 - Só quem usa o Charretecord, com a mesma senha da sala, vê as suas lives e a sua câmera.
 
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan, a mascote do Charretecord, de óculos escuros"></p>
+
+<p align="center"><b>Conheça a Cha-chan</b>, a mascote do Charretecord: um bichinho virtual que mora no app e passeia pela sua área de trabalho. <a href="#15-cha-chan">Saiba mais</a>.</p>
+
 > 📜 **[Novidades do Charretecord](NOVIDADES.md)**: tudo o que ele faz a mais que o Discord, e as notas de cada versão.
 
 ## Sumário
@@ -31,10 +35,13 @@ A voz continua sendo a do Discord. A live (tela, janela ou jogo) e a câmera vã
 12. [Atualizações](#12-atualizações)
 13. [Problemas comuns](#13-problemas-comuns)
 14. [Todas as opções](#14-todas-as-opções)
+15. [Cha-chan](#15-cha-chan)
 
 ---
 
 ## 1. Instalar
+
+<img align="right" src="guia/chachan/acenando.png" width="110" alt="Cha-chan acenando">
 
 Na [página de versões](https://github.com/Augusto-ALN/charretecord-releases/releases/latest), baixe um destes arquivos:
 
@@ -81,6 +88,8 @@ Quando você entra num canal de voz, aparece a linha **Charrete Live** no painel
 
 ## 4. Transmitir
 
+<img align="right" src="guia/chachan/apontando.png" width="110" alt="Cha-chan apontando">
+
 Use o botão de **compartilhar tela** do próprio Discord: o do painel "Voz conectada" ou o da barra da chamada. Ele abre o seletor do Charrete Live:
 
 <img src="guia/seletor.png" width="680" alt="Seletor de fonte com abas Jogos, Telas e Aplicativos e opções de resolução, FPS e áudio">
@@ -113,6 +122,8 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 - O atalho Ctrl + Shift + F9 também encerra.
 
 ## 6. Assistir
+
+<img align="right" src="guia/chachan/coracao.png" width="110" alt="Cha-chan com um coração">
 
 Quem está transmitindo aparece com o selo **AO VIVO** ao lado do nome, na lista do canal de voz. Enquanto você transmite, quem está assistindo a **sua** live aparece com um **olhinho**.
 
@@ -186,7 +197,9 @@ Para quem não usa o Charretecord, o botão continua mandando o pedido normal do
 
 ## 9. Soundboard
 
-Toque os seus próprios sons para quem está na chamada com você. Na chamada, clique no botão da **cabra de óculos**, ao lado do botão de soundboard do Discord, no painel de voz (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
+<img align="right" src="guia/chachan/musica.png" width="110" alt="Cha-chan ouvindo música">
+
+Toque os seus próprios sons para quem está na chamada com você. Na chamada, clique no botão com o **rosto da Cha-chan**, ao lado do botão de soundboard do Discord, no painel de voz (ou em Configurações → Plugins → CharreteLive → **Abrir a soundboard**).
 
 - O botão abre um painelzinho com os seus sons: **clique num som** para tocar. **Ver todos** abre a janela completa.
 - A Charrete Soundboard tem **só os sons que você enviou**. Na janela completa, clique em **＋ Adicionar som**: mp3, ogg, wav… de até **15 segundos**. Os arquivos ficam **só no seu PC**: ninguém recebe o arquivo, só ouve o som enquanto ele toca.
@@ -219,11 +232,15 @@ Os atalhos funcionam **em qualquer janela**, até com um jogo em tela cheia aber
 
 ## 11. Volume de voz dos amigos
 
+<img align="right" src="guia/chachan/carinho.png" width="110" alt="Cha-chan animada">
+
 O Charretecord vem com o volume de voz liberado até **1000%** (no Discord, o máximo é 200%). Durante a chamada, clique com o botão direito no amigo → **Volume do usuário** e arraste além dos 100%.
 
 Para mudar esse limite, vá em Configurações → Charretecord → Plugins → **VolumeBooster**.
 
 ## 12. Atualizações
+
+<img align="right" src="guia/chachan/comemorando.png" width="110" alt="Cha-chan comemorando">
 
 Clique no **⟳** da barra do topo (no canto direito, depois do botão de ajuda) ou no ⟳ da linha Charrete Live. Também dá para ir em Configurações → Plugins → CharreteLive → **Procurar atualizações**. Quando sai versão nova, aparece uma notificação "Charretecord: nova versão" (clique nela para atualizar), e os dois ⟳ ficam verdes; o da barra do topo também ganha uma bolinha. O Charretecord confere a cada 30 minutos.
 
@@ -240,6 +257,8 @@ Depois de atualizar, abre a janela de **Novidades**: na primeira vez ela mostra 
 > As primeiras versões não tinham o botão ⟳. Se o seu painel do Charrete Live mostra "sinalização" no lugar de "sala XXXX", baixe e instale a versão mais recente pela [página de versões](https://github.com/Augusto-ALN/charretecord-releases/releases/latest). Depois disso, as atualizações chegam sozinhas.
 
 ## 13. Problemas comuns
+
+<img align="right" src="guia/chachan/brava.png" width="110" alt="Cha-chan brava">
 
 | O que acontece | Causa provável | O que fazer |
 |---|---|---|
@@ -283,3 +302,28 @@ Ficam em Configurações → Charretecord → Plugins → **CharreteLive**:
 ---
 
 <sub>As imagens deste guia foram feitas com contas e vídeos de exemplo. Client mods violam os Termos de Serviço do Discord: use por sua conta e risco.</sub>
+
+## 15. Cha-chan
+
+<img align="right" src="guia/chachan/hamburguer.png" width="120" alt="Cha-chan comendo um hambúrguer">
+
+A **Charrete-chan**, ou só **Cha-chan**, é a mascote do Charretecord. Ela aparece ao lado do nome de quem usa o Charretecord, nas notas de atualização e no botão com o rosto dela na **barra do topo**, que abre a janela dela.
+
+**Ela é um bichinho virtual:**
+
+- Para continuar viva, ela precisa de você no Charretecord, logado, **pelo menos 30 minutos por dia**. O dia em que ela chega não conta. Se um dia ficar abaixo disso, ela se vai, e dá para adotar outra.
+- A **barriga** e a **felicidade** caem com o tempo. **Hambúrguer** enche a barriga. **Cerveja** deixa ela feliz (até 3 por dia).
+- O botão dela na barra do topo ganha um aviso quando ela está com fome, carente ou quando ainda faltam minutos no dia (a partir das 20h).
+
+<img align="right" src="guia/chachan/cerveja.png" width="110" alt="Cha-chan tomando cerveja">
+
+**Na área de trabalho:**
+
+- Na janela dela, clique em **Soltar na área de trabalho**. Ela passeia pela tela, sobe em cima das janelas abertas e vai junto quando você arrasta a janela em que ela está.
+- **Clique** nela para fazer carinho. **Arraste** para levar para outro lugar (ou jogar longe). **Botão direito** para dar hambúrguer, cerveja ou guardar. **Dois cliques** abrem a janela dela.
+- Ela fica na frente de tudo, até de jogos e vídeos em tela cheia (modo janela sem bordas). Para tirar da tela, use **Guardar a Cha-chan**.
+- As partes transparentes em volta dela não atrapalham: o clique passa para a janela de baixo.
+
+<img align="right" src="guia/chachan/dormindo.png" width="140" alt="Cha-chan dormindo">
+
+**Em breve:** skins novas para a Cha-chan, liberadas conforme o tempo de vida dela.
