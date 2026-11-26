@@ -89,7 +89,7 @@ Use o botão de **compartilhar tela** do próprio Discord: o do painel "Voz cone
 - **Telas**: um monitor inteiro.
 - **Aplicativos**: uma janela só, como o navegador, um editor ou um jogo em janela.
 - **Resolução e FPS**: o padrão é 1080p a 60 fps. Mesmo com o jogo rodando a 120 fps ou mais, a live nunca passa do FPS escolhido. Se a internet de quem transmite for fraca, use 720p ou 30 fps.
-- **Áudio**: "Som do PC (sem o Discord)" manda todo o som do computador, menos o do próprio Charretecord. As vozes da chamada e as lives que você está assistindo ficam de fora, então ninguém ouve eco.
+- **Áudio**: transmitindo um **jogo ou aplicativo**, "Som deste app" manda só o som dele: música, chamada e outros programas ficam de fora. Transmitindo a **tela inteira**, "Som do PC (sem o Discord)" manda todo o som do computador, menos o do próprio Charretecord. Nos dois casos as vozes da chamada e as lives que você está assistindo ficam de fora, então ninguém ouve eco.
 
 Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de transmitir um jogo detectado, o menu de transmissões, um pedido de transmissão) também abre o Charrete Live. Quando alguém abre uma live, a sala ouve um berro de bode bem baixinho.
 
@@ -114,7 +114,7 @@ Qualquer outro caminho do Discord que iniciaria uma transmissão (o botão de tr
 
 ## 6. Assistir
 
-Quem está transmitindo aparece com o selo **AO VIVO** ao lado do nome, na lista do canal de voz. Quem está assistindo alguma live aparece com um **olhinho**.
+Quem está transmitindo aparece com o selo **AO VIVO** ao lado do nome, na lista do canal de voz. Enquanto você transmite, quem está assistindo a **sua** live aparece com um **olhinho**.
 
 Quem usa o Charretecord aparece com o **ícone do Charretecord** (a cabra de óculos) à direita do nome e das tags, logo antes do **AO VIVO**, na chamada e na lista de membros, mesmo usando outra senha de sala. Só quem tem o Charretecord vê esse ícone. Para isso, cada app anuncia apenas um código embaralhado do ID da conta do Discord: nenhum IP ou outro dado vai junto. Os IPs continuam indo só para quem tem a mesma senha de sala, e só na hora de assistir uma live.
 
@@ -251,7 +251,7 @@ Depois de atualizar, abre a janela de **Novidades**: na primeira vez ela mostra 
 | Live preta ou parada no jogo | Jogo em tela cheia exclusiva. | Use o modo "tela cheia sem bordas" no jogo. |
 | Imagem travando em cenas pesadas do jogo | O jogo está usando a placa de vídeo inteira. | Durante a live, o Charretecord pede prioridade de tempo real na placa de vídeo (na NVIDIA, alta) e impede o Windows de pôr o app em modo eficiência quando o jogo cobre a janela. Quando falta força, a live prefere perder um pouco de nitidez a perder quadros. Em jogos que pesam muito no processador, uma live a **60 FPS** pode não ter folga: teste a live a **30 FPS** no seletor. Também ajuda desligar gravadores em segundo plano (Instant Replay da NVIDIA, gravação do Xbox Game Bar) e usar o jogo em **tela cheia sem bordas**. |
 | Imagem borrada | O upload de quem transmite está no limite, porque cada espectador recebe uma cópia da live. | Baixe para 720p ou 30 fps no seletor. Passe o mouse na linha Charrete Live para ver o que está limitando. |
-| Ninguém ouve o som do jogo | A live foi iniciada com "Sem áudio". | Use a setinha do botão de transmitir para trocar a fonte e escolha "Som do PC (sem o Discord)". |
+| Ninguém ouve o som do jogo | A live foi iniciada com "Sem áudio". | Use a setinha do botão de transmitir para trocar a fonte e ligue o áudio ("Som deste app" numa janela, "Som do PC (sem o Discord)" na tela inteira). |
 | Atalho não funciona dentro do jogo | Versão anterior à 1.6.19, ou o jogo roda como administrador. | Atualize pelo ⟳. Se o jogo roda como administrador (como o Where Winds Meet), abra o Charretecord como administrador: botão direito no atalho dele → **Executar como administrador** (veja [Atalhos](#10-atalhos-do-teclado-e-do-mouse)). |
 
 ## 14. Todas as opções

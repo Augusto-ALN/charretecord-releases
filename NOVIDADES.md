@@ -39,6 +39,21 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.13 · Áudio da live por aplicativo
+
+<sub>25/11/2026</sub>
+
+*Ao transmitir uma janela, vai só o som daquele aplicativo.*
+
+#### Novidades
+
+- Transmitindo uma janela, a live leva só o som daquele aplicativo: músicas, chamadas e outros programas ficam de fora.
+
+#### Melhorias
+
+- Transmitindo a tela inteira, vai todo o som do PC, menos o do Charretecord (vozes da chamada e lives que você está assistindo).
+- Na lista de voz, o indicador de quem está assistindo aparece só em quem está vendo a sua live.
+
 ### 1.7.12 · Voz mais estável
 
 <sub>25/11/2026</sub>
