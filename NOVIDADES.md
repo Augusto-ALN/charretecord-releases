@@ -40,6 +40,34 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.15 · Cha-chan ganha vida
+
+<sub>26/11/2026</sub>
+
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan"></p>
+
+*A Cha-chan agora anda, come, bebe e senta na borda das suas janelas com animações, e o bichinho virtual ganhou energia, brincadeiras, ofensiva e diário.*
+
+#### Mais viva do que nunca
+
+Solta na área de trabalho, a Cha-chan agora caminha de verdade, come o hambúrguer e vira a cerveja com animação própria. Em cima de uma janela, ela senta na borda com as pernas para fora, balança os pés, espia por trás dela e às vezes deita ali mesmo para tirar um cochilo.
+
+Para levar a Cha-chan a outro lugar, pegue ela pelo topete: ela fica pendurada enquanto você arrasta.
+
+Na janela dela, o bichinho virtual ganhou energia e sono, brincadeiras, carinho, a ofensiva de dias seguidos, a contagem para as próximas skins e um diário com o que ela fez.
+
+#### Novidades
+
+- Animações da Cha-chan na área de trabalho: caminhada, comendo hambúrguer, tomando cerveja, sentada na borda das janelas com as pernas para fora, espiando por trás delas e cochilando na borda.
+- Pegue a Cha-chan pelo topete para arrastar: ela fica pendurada até você soltar (ou jogar).
+- Energia e sono: ela cansa ao longo do dia e recupera dormindo. Dá para pôr para dormir e acordar; se a energia acabar, ela dorme sozinha. Dormindo, ela não come nem brinca.
+- Brincar (a cada 10 minutos) e carinho: deixam ela feliz. Brincar gasta energia e um pouco da barriga.
+- Ofensiva: dias seguidos com os 30 minutos e o seu recorde. Também mostra quantos dias faltam para a próxima skin (7, 30, 100 e 365 dias de vida) e um diário com o que ela fez.
+
+#### Melhorias
+
+- O menu do botão direito na Cha-chan ganhou Brincar e Dormir/Acordar.
+
 ### 1.7.14 · Conheça a Cha-chan
 
 <sub>25/11/2026</sub>

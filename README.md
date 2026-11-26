@@ -312,18 +312,21 @@ A **Charrete-chan**, ou só **Cha-chan**, é a mascote do Charretecord. Ela apar
 **Ela é um bichinho virtual:**
 
 - Para continuar viva, ela precisa de você no Charretecord, logado, **pelo menos 30 minutos por dia**. O dia em que ela chega não conta. Se um dia ficar abaixo disso, ela se vai, e dá para adotar outra.
-- A **barriga** e a **felicidade** caem com o tempo. **Hambúrguer** enche a barriga. **Cerveja** deixa ela feliz (até 3 por dia).
+- A **barriga**, a **felicidade** e a **energia** caem com o tempo. **Hambúrguer** enche a barriga. **Cerveja** (até 3 por dia), **brincar** (a cada 10 minutos) e **carinho** deixam ela feliz.
+- **Energia e sono:** ela cansa ao longo do dia e recupera dormindo. Dá para pôr para dormir e acordar (acordar cedo demais deixa ela de mau humor). Se a energia acabar, ela dorme sozinha. Dormindo, ela não come nem brinca.
+- **Ofensiva:** quantos dias seguidos você cumpriu os 30 minutos, e o seu recorde. A janela dela também mostra quantos dias faltam para a próxima skin (7, 30, 100 e 365 dias de vida) e um **diário** com o que ela fez.
 - O botão dela na barra do topo ganha um aviso quando ela está com fome, carente ou quando ainda faltam minutos no dia (a partir das 20h).
 
-<img align="right" src="guia/chachan/cerveja.png" width="110" alt="Cha-chan tomando cerveja">
+<img align="right" src="guia/chachan/sentada.png" width="130" alt="Cha-chan sentada na borda de uma janela">
 
 **Na área de trabalho:**
 
 - Na janela dela, clique em **Soltar na área de trabalho**. Ela passeia pela tela, sobe em cima das janelas abertas e vai junto quando você arrasta a janela em que ela está.
-- **Clique** nela para fazer carinho. **Arraste** para levar para outro lugar (ou jogar longe). **Botão direito** para dar hambúrguer, cerveja ou guardar. **Dois cliques** abrem a janela dela.
+- Em cima de uma janela, ela às vezes **senta na borda** com as pernas para fora, **espia por trás** dela ou **deita na borda** para cochilar. Ela também come e bebe com animação quando você dá hambúrguer ou cerveja.
+- **Clique** nela para fazer carinho. **Arraste** para levar para outro lugar (ou jogar longe): ela fica pendurada pelo topete. **Botão direito** para dar hambúrguer, cerveja, brincar, pôr para dormir ou guardar. **Dois cliques** abrem a janela dela.
 - Ela fica na frente de tudo, até de jogos e vídeos em tela cheia (modo janela sem bordas). Para tirar da tela, use **Guardar a Cha-chan**.
 - As partes transparentes em volta dela não atrapalham: o clique passa para a janela de baixo.
 
-<img align="right" src="guia/chachan/dormindo.png" width="140" alt="Cha-chan dormindo">
+<img align="right" src="guia/chachan/pendurada.png" width="100" alt="Cha-chan pendurada pelo topete">
 
 **Em breve:** skins novas para a Cha-chan, liberadas conforme o tempo de vida dela.
