@@ -40,6 +40,24 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.16 · Cha-chan inteira no colo
+
+<sub>26/11/2026</sub>
+
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan"></p>
+
+*Correção na Cha-chan segurada pelo topete.*
+
+#### Pega pelo topete, com jeitinho
+
+Segurada pelo mouse, a Cha-chan agora aparece inteira, pendurada pelo topete até você soltar.
+
+Lembrete: ela precisa de você no Charretecord pelo menos 30 minutos por dia. Dá um hambúrguer, uma cerveja ou uma brincadeira de vez em quando e deixa ela dormir quando estiver cansada.
+
+#### Correções
+
+- A Cha-chan aparece inteira enquanto é segurada pelo topete na área de trabalho (antes, a parte de baixo ficava cortada).
+
 ### 1.7.15 · Cha-chan ganha vida
 
 <sub>26/11/2026</sub>
