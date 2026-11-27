@@ -40,6 +40,28 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.18 · Cha-chan não perde uma morte
+
+<sub>27/11/2026</sub>
+
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan"></p>
+
+*A reação da Cha-chan à tela de morte do Bloodborne agora reconhece a tela como ela aparece no jogo.*
+
+#### Agora ela vê de verdade
+
+A Cha-chan reconhece o "YOU DIED" e o "MORREU" na posição em que o Bloodborne mostra (centralizado, mais para cima), sobre qualquer cenário: escuro, claro, com névoa ou com uma tocha atrás das letras.
+
+A leitura da tela também ficou mais leve. Para ligar: janela da Cha-chan → Reação a eventos de tela.
+
+#### Melhorias
+
+- A leitura da tela do jogo usa cerca de um terço do processamento de antes.
+
+#### Correções
+
+- Reação a eventos de tela: a tela de morte do Bloodborne é reconhecida em qualquer altura da tela e com o texto em português ("MORREU") ou inglês ("YOU DIED"), independente do cenário atrás das letras.
+
 ### 1.7.17 · Cha-chan assiste você morrer
 
 <sub>26/11/2026</sub>
@@ -58,7 +80,7 @@ A função é experimental e vem desligada: ligue em Cha-chan → Reação a eve
 
 #### Novidades
 
-- Reação a eventos de tela (experimental): a Cha-chan ri de você quando aparece a tela de morte do Bloodborne (bbport), em inglês ("YOU DIED") ou português ("VOCÊ MORREU"). Liga e desliga na janela dela; vem desligada.
+- Reação a eventos de tela (experimental): a Cha-chan ri de você quando aparece a tela de morte do Bloodborne (bbport), em inglês ("YOU DIED") ou português ("MORREU"). Liga e desliga na janela dela; vem desligada.
 - Contador de mortes no Bloodborne na janela da Cha-chan e no diário dela.
 
 #### Melhorias
