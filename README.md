@@ -327,6 +327,15 @@ A **Charrete-chan**, ou só **Cha-chan**, é a mascote do Charretecord. Ela apar
 - Ela fica na frente de tudo, até de jogos e vídeos em tela cheia (modo janela sem bordas). Para tirar da tela, use **Guardar a Cha-chan**.
 - As partes transparentes em volta dela não atrapalham: o clique passa para a janela de baixo.
 
+<img align="right" src="guia/chachan/rindo.png" width="130" alt="Cha-chan rindo e apontando">
+
+**Reação a eventos de tela (experimental):**
+
+- Na janela dela, ligue **Reação a eventos de tela**. Vem desligada.
+- Com o **Bloodborne (bbport)** aberto, quando aparece a tela de morte ("YOU DIED" ou "VOCÊ MORREU"), a Cha-chan aparece rindo e apontando para você, com risada. Se estiver guardada, ela aparece só para rir e vai embora. A janela dela conta quantas mortes ela já viu.
+- Jogue em **janela** ou **tela cheia sem bordas**; em tela cheia exclusiva a tela pode não ser lida.
+- Só a faixa do meio da janela do jogo é lida, na hora, com o jogo em primeiro plano. Nada é salvo nem enviado. Desligando, o processo que olha a tela fecha na hora.
+
 <img align="right" src="guia/chachan/pendurada.png" width="100" alt="Cha-chan pendurada pelo topete">
 
 **Em breve:** skins novas para a Cha-chan, liberadas conforme o tempo de vida dela.

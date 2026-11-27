@@ -40,6 +40,31 @@ Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional
 
 ## Notas de atualização
 
+### 1.7.17 · Cha-chan assiste você morrer
+
+<sub>26/11/2026</sub>
+
+<p align="center"><img src="guia/chachan/apresentacao.png" width="260" alt="Cha-chan"></p>
+
+*Reação a eventos de tela (experimental): a Cha-chan percebe quando você morre no Bloodborne e ri da sua cara.*
+
+#### Morreu? Ela viu.
+
+Com a nova reação a eventos de tela ligada, a Cha-chan fica de olho no Bloodborne (bbport) e, quando aparece a tela de morte, em inglês ou português, ela aparece rindo e apontando para você, com direito a risada.
+
+Se ela estiver guardada, aparece só para rir e vai embora em seguida. Na janela dela, um contador mostra quantas mortes ela já viu.
+
+A função é experimental e vem desligada: ligue em Cha-chan → Reação a eventos de tela. Só a faixa do meio da janela do jogo é lida, na hora, e nada é salvo ou enviado. Desligando, o processo que olha a tela fecha na hora.
+
+#### Novidades
+
+- Reação a eventos de tela (experimental): a Cha-chan ri de você quando aparece a tela de morte do Bloodborne (bbport), em inglês ("YOU DIED") ou português ("VOCÊ MORREU"). Liga e desliga na janela dela; vem desligada.
+- Contador de mortes no Bloodborne na janela da Cha-chan e no diário dela.
+
+#### Melhorias
+
+- A leitura da tela usa pouco do PC: só a faixa do meio da janela do jogo, algumas vezes por segundo, e só com o jogo em primeiro plano. Funciona em janela ou tela cheia sem bordas.
+
 ### 1.7.16 · Cha-chan inteira no colo
 
 <sub>26/11/2026</sub>
